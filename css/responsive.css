@@ -1,0 +1,399 @@
+/* Responsive Design */
+
+
+@media(max-width:992px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    section {
+        padding: 6rem 0;
+    }
+
+    .hamburger-menu {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        z-index: 999;
+        cursor: pointer;
+
+    }
+
+    .hamburger-menu i {
+        font-size: 3rem;
+        color: #23239f;
+        margin: auto;
+    }
+
+
+    .hamburger-menu .fa-times {
+        display: none;
+    }
+
+    .hamburger-menu .fa-times.open {
+        display: block;
+    }
+
+    .hamburger-menu .fa-bars.open {
+        display: none;
+    }
+
+
+    .main-nav {
+        width: 25rem;
+        height: 100vh;
+        background-color: #23239f;
+        position: fixed;
+        top: 0;
+        left: -25rem;
+        z-index: 990;
+        line-height: 1;
+        font-size: 2.5rem;
+        display: flex;
+        transition: all .4s;
+    }
+
+    .main-nav.open-menu {
+        left: 0;
+
+    }
+
+
+
+    .main-nav .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .main-nav .navigation li {
+        margin-top: 1rem;
+    }
+
+    .hero {
+        padding-top: 8rem;
+    }
+
+
+    .hero-text h1 {
+        font-size: 3.5rem;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .hero-text p {
+
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
+
+    .hero img {
+        margin-top: 6rem;
+    }
+
+    .home-btn {
+        margin: 3rem 0;
+    }
+
+
+    /*****************************************************************
+ | | | | | | | | | |    ABOUT US
+ **************************************************************/
+
+    #about-left {
+        padding: 3rem 2rem;
+    }
+
+    #about-left p {
+        font-size: 1.4rem;
+    }
+
+    #about-left h2 {
+        font-size: 2rem;
+    }
+
+
+
+    #about-left h2 {
+        font-size: 1.6rem;
+    }
+
+
+
+
+    #about-right h1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 3rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    #about-right h1 span {
+        font-family: cursive;
+        color: #23239f;
+    }
+
+    #about-right p {
+        font-size: 1.4rem;
+        font-weight: 300;
+        line-height: 2.5rem;
+        margin: 2rem 0;
+        color: #818181;
+    }
+
+    /************************************************
+ | | | | | | | | | |    Case Study
+ ********************************************************/
+
+
+
+    .case {
+        width: 100%;
+    }
+
+    .case img {
+        max-width: 100%;
+        width: 100%;
+
+
+    }
+
+
+    .note h1 {
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 3.2rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .price-value .price-dollar {
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding-right: 1rem;
+        position: absolute;
+        top: 0;
+        left: 6rem;
+    }
+
+    .blog-tags .btn {
+        padding: .5rem 1rem;
+    }
+
+
+    .footer-logo {
+        width: 12rem;
+    }
+}
+
+
+
+@media(max-width:767px) {
+
+
+    /***************************************
+    | | | | | | | HOME
+    ******************************************/
+
+    .home-btn a {
+        margin: 0;
+        padding: 1rem 1rem;
+    }
+
+
+    #about-left {
+        margin-bottom: 4rem;
+    }
+
+
+    #about-left .about-img {
+        width: 10rem;
+    }
+
+    #about-left p {
+        font-size: 1.9rem;
+    }
+
+    #about-left h2 {
+        font-size: 4rem;
+    }
+
+
+    #about-left h3 {
+        font-size: 1.9rem;
+    }
+
+
+    #about-right {
+        text-align: center;
+    }
+
+
+    #about-right h3 {
+        font-size: 2rem;
+    }
+
+
+    #about-right h1 {
+        font-size: 5rem;
+    }
+
+
+    #about-right p {
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+
+
+    /* service */
+
+    .service {
+        margin: 2rem 0;
+    }
+
+    .service h3 {
+        font-size: 3rem;
+    }
+
+    .service p {
+        font-size: 1.8rem;
+    }
+
+
+    /* price */
+    .price-value .price-dollar {
+        font-family: "Raleway", sans-serif;
+        font-size: 2rem;
+        font-weight: 400;
+        padding-right: 1rem;
+        position: absolute;
+        top: 0;
+        left: 6.5rem;
+    }
+
+
+    /* client */
+    .section-client .clients {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .section-client .client {
+        width: 90px;
+
+    }
+
+
+    /* footer */
+
+    .footer-info p {
+        font-size: 1.8rem;
+
+    }
+
+    .footer-info img {
+        width: 15rem;
+    }
+
+    .footer h3 {
+        font-size: 2.5rem;
+    }
+
+    .footer .link-list li {
+        font-size: 1.6rem;
+    }
+
+
+    .footer .copyright {
+        font-size: 1.8rem;
+    }
+
+
+
+
+}
+
+@media(max-width:552px) {
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 2rem 0 0 0;
+    }
+
+    .hero img {
+        margin-top: 0;
+    }
+
+    .home-btn {
+        margin: 4rem 0;
+        text-align: center;
+    }
+
+    .hero-img {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .section {
+        padding: 3rem 0;
+    }
+
+    .horizontal-heading h5 {
+        font-size: 1.5rem;
+
+    }
+
+    .horizontal-heading h2 {
+        font-size: 3.5rem;
+
+    }
+
+    #about-left p {
+        font-size: 1.8rem;
+    }
+
+    #about-left h2 {
+        font-size: 3rem;
+    }
+
+    #about-right h1 {
+        font-size: 3rem;
+    }
+
+
+    /* price */
+    .price-value .price-dollar {
+        font-size: 2rem;
+        position: absolute;
+        top: 0;
+        left: 12.7rem;
+    }
+
+    .price {
+        margin-top: 4rem;
+    }
+
+    .blog {
+        margin-top: 3rem;
+    }
+
+}

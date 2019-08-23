@@ -1,0 +1,649 @@
+/*
+
+Colors
+
+Primary : #6e4de6
+Primary-dark : #23239f
+Grey-Dark : #333333
+Grey-light : #818181
+Brown : #e86048
+Violet : #352c49
+Violet-dark : #302543
+color : #fff
+white-smoke : #f4f4f4;
+
+*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+section {
+    padding: 10rem 0;
+}
+
+
+/*****************************************************************
+ | | | | | | | | | |    HEADER
+ **************************************************************/
+#header {
+    background-color: #6e4de6;
+    height: 100vh;
+    position: relative;
+}
+
+.main-nav {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.233);
+    padding: 4rem 0 !important;
+    width: 100%;
+}
+
+.logo {
+    height: 100%;
+}
+
+
+.navigation li.nav-list {
+    margin-right: 2rem !important;
+}
+
+.navigation li a.navigation-link {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.hero {
+    padding: 4rem 0 0 0;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.hero-text {
+    color: #fff;
+}
+
+.hero-text h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 6rem;
+    margin-bottom: 2rem;
+}
+
+
+.hero-text p {
+
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+/*****************************************************************
+ | | | | | | | | | |    BUTTON
+ **************************************************************/
+
+.btn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-radius: 0;
+    padding: 1rem 2rem;
+
+}
+
+.btn-border-white,
+.btn-border-white:hover {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn-border-blue,
+.btn-border-blue:hover {
+    border: 1px solid #6e4de6;
+    color: #6e4de6;
+}
+
+
+.btn-blue,
+.btn-blue:hover {
+    background-color: #23239f;
+    color: #fff;
+}
+
+
+.btn-brown,
+.btn-brown:hover {
+    background-color: #e86048;
+    color: #fff;
+}
+
+/*****************************************************************
+ | | | | | | | | | |    ABOUT US
+ **************************************************************/
+
+#about-left {
+    padding: 5rem 4rem;
+    box-shadow: 0 0 4rem rgba(0, 0, 0, 0.137)
+}
+
+#about-left .about-img {
+    width: 8rem;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.about-img img {
+    border-radius: 50%;
+    border: 3px solid #f4f4f4;
+    box-sizing: content-box;
+}
+
+#about-left p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 3rem;
+
+    margin: 4rem 0;
+    color: #818181;
+
+}
+
+#about-left h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#about-left h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 1rem;
+}
+
+#about-right {
+    height: 100%;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#about-right h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #8181818e;
+    margin-bottom: 3rem;
+}
+
+#about-right h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+#about-right h1 span {
+    font-family: cursive;
+    color: #23239f;
+}
+
+#about-right p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+    margin: 2rem 0;
+    color: #818181;
+}
+
+.about-btn {
+    margin: 2rem 0;
+}
+
+
+/*****************************************************************
+ | | | | | | | | | |    HEADINGS
+ **************************************************************/
+
+.horizontal-heading h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #818181bd;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+}
+
+.horizontal-heading h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #333;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    margin-bottom: 5rem;
+}
+
+.horizontal-heading h2 span {
+    font-family: cursive;
+    color: #23239f;
+}
+
+
+/*****************************************************************
+ | | | | | | | | | |    SERVICES
+ **************************************************************/
+
+.service {
+    padding: 3rem 2rem;
+}
+
+.service i {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #6e4de6;
+    margin-bottom: 2rem;
+}
+
+.service h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+.service p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #818181;
+    line-height: 2.5rem;
+}
+
+.service-highlight {
+    border-top: 3px solid #6e4de6;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.233);
+}
+
+.service-highlight h3 {
+    color: #6e4de6;
+}
+
+.services-btn {
+    margin-top: 6rem;
+}
+
+
+/*****************************************************************
+ | | | | | | | | | |    CASE STUDY
+ **************************************************************/
+.section-case {
+    background-color: #f4f4f4;
+}
+
+.case {
+    background-color: #fff;
+    text-align: center;
+    height: 100%;
+}
+
+
+.case a {
+    margin-top: -2rem;
+    border-radius: 100px;
+}
+
+.case h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 4rem 4rem;
+}
+
+
+/*****************************************************************
+ | | | | | | | | | |    NOTE
+ **************************************************************/
+
+.note h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 5.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.note h1 span {
+    font-family: cursive;
+    color: #23239f;
+}
+
+.note p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #818181;
+    line-height: 2.5rem;
+}
+
+.note ul {
+    list-style: none;
+    margin-top: 4rem;
+
+}
+
+.note ul li {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.note ul li i {
+    background-color: #f4f4f4;
+    color: #e86048;
+    padding: 1rem;
+    border-radius: 50%;
+    font-weight: 100;
+    margin-right: 1rem;
+    align-self: flex-start;
+
+}
+
+.note ul li i.checked {
+    background-color: #6e4de6;
+    color: #f4f4f4;
+}
+
+/*****************************************************************
+ | | | | | | | | | |    PRICING TABLE
+ **************************************************************/
+
+.price-package {
+    background-color: #f4f4f4;
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.price-package h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.price-value {
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 400;
+    color: #818181;
+}
+
+.price-value p {
+    position: relative;
+}
+
+.price-value .price-dollar {
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-right: 1rem;
+    position: absolute;
+    top: 0;
+    left: 10rem;
+}
+
+
+.price-value .price-month {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.price-list {
+    list-style: none;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.price-list li {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.price-btn {
+    text-align: center;
+}
+
+.price-highight .price-package {
+    background-color: #6e4de6;
+    color: #fff;
+}
+
+.price-highight .price-value {
+    color: #6e4de6 !important;
+}
+
+.price-highight {
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.37);
+}
+
+.price-highight .price-btn {
+    padding-bottom: 1rem !important;
+}
+
+
+
+/*****************************************************************
+ | | | | | | | | | |    BLOG SECTION
+ **************************************************************/
+.blog {
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.137);
+    width: 95%;
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+.blog .blog-text {
+    margin: 2rem auto;
+    padding: 0 3rem;
+
+}
+
+.blog-text h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.blog-text p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: #818181;
+}
+
+.blog-tags {
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.blog-tags .btn-rounded {
+    background-color: #f4f4f4;
+    border-radius: 100px !important;
+}
+
+.blog .blog-tag {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.blog .blog-tag a {
+    width: 100%;
+    margin-bottom: 1.5rem !important;
+}
+
+
+/*****************************************************************
+ | | | | | | | | | |    CLIENT SECTION
+ **************************************************************/
+.section-client .clients {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.section-client .client {
+    width: 150px;
+
+}
+
+
+/*****************************************************************
+ | | | | | | | | | |    CTA SECTION
+ **************************************************************/
+
+.section-cta p {
+    font-size: 1.6rem;
+}
+
+.section-cta .cta-btn {
+    margin-top: 3rem;
+}
+
+
+/*****************************************************************
+ | | | | | | | | | |    FOOTER
+ **************************************************************/
+.footer {
+    background-color: #352c49;
+    padding: 10rem 0 4rem 0;
+}
+
+.footer-info img {
+    margin-bottom: 2rem;
+}
+
+.footer-info p {
+    font-size: 1.5rem;
+    color: #f4f4f4;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.footer-info .social {
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.footer-info .social li {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer-info .social li i {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #f4f4f4;
+}
+
+.footer-info .social li:hover {
+    background-color: #e86048;
+    border: 1px solid transparent;
+}
+
+.footer h3 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.footer .link-list {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.footer .link-list li {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.footer .link-list li i {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.footer form {
+    margin-top: 2rem;
+}
+
+.footer form .form-control {
+    width: 90%;
+    padding: 1.5rem .5rem !important;
+    font-size: 1.3rem;
+    background-color: #352c49;
+}
+
+.footer form .form-control:focus {
+    outline: none !important;
+}
+
+.footer .copyright {
+    margin-top: 7rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #fff;
+}
